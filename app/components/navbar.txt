@@ -1,0 +1,31 @@
+import React from 'react';
+import Image from 'next/image';
+
+const Navbar = () => {
+    return (
+    <>
+        <nav className="bg-primary flex flex-row sticky h-10">
+            <div className='w-full flex flex-row justify-between px-10 py-2'>
+            <div className='text-sm font-medium italic'>amandd.online</div>
+                <div className='hidden md:inline'>
+                <span className='mx-3 cursor-pointer hover:underline'>Home</span>
+                <span className='mx-3 cursor-pointer hover:underline'>About</span>
+                <span className='mx-3 cursor-pointer hover:underline'>Contact</span>
+                <span className='mx-3 cursor-pointer hover:underline'>Project</span>
+                </div>
+            </div>
+        </nav>
+        <div className='group'>
+            <div className='md:hidden invisible group-hover:visible flex flex-col absolute bg-primary right-0 pr-20 pl-1 top-0 bg-opacity-70 font-semibold cursor-pointer'>
+                    <Image src='/img/menu-icon01.png' alt='menu-icon' width={20} height={20} className='my-2 ml-20 left-0 visible hover:scale-105 active:opacity-70'/>
+                    <span className='my-2 group-hover:visible hover:scale-105 active:opacity-70'>Home</span>
+                    <span className='my-2 group-hover:visible hover:scale-105 active:opacity-70'>About</span>
+                    <span className='my-2 group-hover:visible hover:scale-105 active:opacity-70'>Contact</span>
+                    <span className='my-2 group-hover:visible hover:scale-105 active:opacity-70'>Project</span>
+            </div>
+        </div>
+    </>
+    )
+};
+
+export default Navbar;
