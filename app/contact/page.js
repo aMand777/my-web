@@ -21,19 +21,19 @@ const Contact = () => {
               <Image src="/img/gmail-icon.png" alt="gmail-icon" fill={true} />
             </Link>
           </div>
-          <span className="text-sm font-thin italic col-span-2 md:text-lg">aman123456789777@gmail.com</span>
+          <span className="text-sm font-baase italic col-span-2 md:text-lg">aman123456789777@gmail.com</span>
           <div className="relative w-8 h-8 sm:w-12 sm:h-12 justify-self-end mt-5 mr-10 hover:rotate-12 hover:scale-110 duration-1000 delay-200">
           <Link href="https://www.linkedin.com/in/aman-3a934826b" target='_blank'>
             <Image src="/img/linkedin-icon.png" alt="linkedin-icon" fill={true} />
           </Link>
           </div>
-          <span className="text-sm font-thin italic col-span-2 sm:text-lg">Aman .</span>
+          <span className="text-sm font-base italic col-span-2 sm:text-lg">Aman .</span>
           <div className="relative w-8 h-8 sm:w-12 sm:h-12 justify-self-end my-5 mr-10 hover:rotate-45 hover:scale-110 duration-1000 delay-200">
           <Link href="https://github.com/aMand777" target='_blank'>
             <Image src="/img/github-icon.png" alt="github-icon" fill={true} />
           </Link>
           </div>
-          <span className="text-sm font-thin italic col-span-2 sm:text-lg">amand777</span>
+          <span className="text-sm font-base italic col-span-2 sm:text-lg">amand777</span>
         </div>
       </div>
       <Footer />

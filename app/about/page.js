@@ -37,8 +37,8 @@ const About = () => {
                 <Link href='https://nodejs.org/en/docs' target='_blank'><Image src='/img/nodejs-icon.png' alt='nodejs-icon' width={30} height={30} /></Link>
             </div>
             <div className='mx-auto bg-slate-50 w-11/12 mt-1 sm:mt-4 container'>
-                <p className='top-1/4 left-1/4 italic text-xl font-thin sm:text-2xl p-5 text-justify sm:p-10'>Pada bagian kolom diatas adalah beberapa tools yang saya gunakan untuk membuat website ini, silahkan klik logo dari masing-masing teknologi tersebut jika ingin sama-sama belajar, karena sampai kapan pun teknologi pasti terus berkembang dan mengalami perubahan, jadi tidak ada alasan untuk merasa sudah cukup belajar.</p>
-                <p className='sm:text-2xl italic font-thin text-xl leading-loose p-5 text-justify sm:p-10'>`Bagi saya solve problem itu pusing, tetapi rasa puas saat bertemu dengan cara solve nya lah yang membuat itu jadi candu.`</p>
+                <p className='top-1/4 left-1/4 italic text-xl font-base sm:text-2xl p-5 text-justify sm:p-10'>Pada bagian kolom diatas adalah beberapa tools yang saya gunakan untuk membuat website ini, silahkan klik logo dari masing-masing teknologi tersebut jika ingin sama-sama belajar, karena sampai kapan pun teknologi pasti terus berkembang dan mengalami perubahan, jadi tidak ada alasan untuk merasa sudah cukup belajar.</p>
+                <p className='sm:text-2xl italic font-base text-xl leading-loose p-5 text-justify sm:p-10'>`Bagi saya solve problem itu pusing, tetapi rasa puas saat bertemu dengan cara solve nya lah yang membuat itu jadi candu.`</p>
             </div>
             <Footer />
             </>

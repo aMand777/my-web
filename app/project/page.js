@@ -21,19 +21,19 @@ const Project = () => {
               <Image src="/img/note-icon.ico" alt="notes-icon" fill={true} />
             </Link>
           </div>
-          <span className="text-sm font-thin italic sm:text-lg col-span-2">notes-app.amandd.online</span>
+          <span className="text-sm font-base italic sm:text-lg col-span-2">notes-app.amandd.online</span>
           <div className="relative w-8 h-8 sm:w-12 sm:h-12 justify-self-end mt-5 mr-10 hover:-rotate-12 duration-1000 delay-200 hover:scale-110">
             <Link href="https://books-app.amandd.online" target="_blank">
               <Image src="/img/book-icon.ico" alt="book-icon" fill={true} />
             </Link>
           </div>
-          <span className="text-sm font-thin italic sm:text-lg col-span-2">books-app.amandd.online</span>
+          <span className="text-sm font-base italic sm:text-lg col-span-2">books-app.amandd.online</span>
           <div className="relative w-8 h-8 sm:w-12 sm:h-12 my-5 justify-self-end mt-5 mr-10 hover:-rotate-12 duration-1000 delay-200 hover:scale-110">
             <Link href="/project">
               <Image src="/img/coming-soon01.png" alt="coming-soon" fill={true} />
             </Link>
           </div>
-          <span className="text-sm font-thin italic sm:text-lg col-span-2">coming soon..</span>
+          <span className="text-sm font-base italic sm:text-lg col-span-2">coming soon..</span>
         </div>
       </div>
       <Footer />
