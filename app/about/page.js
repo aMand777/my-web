@@ -13,7 +13,7 @@ const About = () => {
     <>
       <div className="w-11/12 mx-auto rounded-lg overflow-hidden container -z-10 mt-3">
         <div className='justify-center w-full h-32 sm:h-40 relative bg-left overflow-hidden bg-cover bg-[url("/img/bg-img02.jpg")]'>
-          <p className="absolute text-white text-base font-semibold italic sm:hidden bottom-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2">Full Stack Web Developer</p>
+          <p className="absolute text-white text-sm font-semibold italic sm:hidden bottom-1 left-1/2 transform -translate-x-1/2 -translate-y-1/2 p-0">Full Stack Developer</p>
           <div className='mt-3 mx-auto w-20 h-20 rounded-full text-center sm:hidden overflow-hidden bg-center bg-cover bg-[url("/img/pic-landing-page.jpg")]'></div>
         </div>
         <div className="w-full h-32 sm:grid grid-cols-3 gap-3 place-content-around hidden border-spacing-3">

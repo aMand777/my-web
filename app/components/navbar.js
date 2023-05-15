@@ -40,7 +40,7 @@ const Navbar = () => {
       <div
         className={`md:hidden transition-transform duration-1000 transform mt-1 ${
           !isVisible ? '-translate-y-44' : 'translate-y-0'
-        } flex flex-col fixed bg-primary right-0 pr-20 pl-1 bg-opacity-70 font-semibold cursor-pointer rounded-tl-full rounded-br-full outline-double outline-green-200 z-40`}>
+        } flex flex-col fixed bg-primary right-0 pr-20 pl-1 bg-opacity-70 font-semibold cursor-pointer rounded-md outline-double outline-green-200 z-40`}>
         <Link href="/" className="my-2">
           <span className="hover:scale-105 active:opacity-70 z-50 text-white">Home</span>
         </Link>
